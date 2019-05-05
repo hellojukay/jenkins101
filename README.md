@@ -29,3 +29,26 @@ volumes:
 ```
 * JAVA War 包安装
 * yum,apt,brew,pacman安装
+通过包管理工具也能安装 jenkins
+
+1. yum 安装 jenkinsfile
+```shell
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install jenkins
+```
+2. apt 安装 jenkins
+```shell
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+```
+3. mac 上 brew 安装 jenkins
+```shell
+brew update && brew install jenkins
+```
+4. arch 上使用 pacman　安装 jenkins
+```shell
+pacman -S jenkins
+```
