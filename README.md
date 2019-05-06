@@ -28,6 +28,9 @@ volumes:
         external: true
 ```
 * JAVA War 包安装
+```shell
+java -jar jenkins.war
+```
 * yum,apt,brew,pacman安装
 通过包管理工具也能安装 jenkins
 
