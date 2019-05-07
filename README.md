@@ -87,5 +87,6 @@ jenkins　的用户界面有两种，　一种是经典模式的界面，　另�
 ![流水线](./images/pipeline.png)
 
 3. 多分支流水线
+
 多分支流水线和流水线一样，　也是使用的 DSL　的语法，　需要你在项目里面添加一个 `Jenkinsfile`, 当然，这个文件名字你是可以指定的。
 ![多分支](./images/mutil_branch.png)
