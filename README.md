@@ -80,3 +80,12 @@ jenkins　的用户界面有两种，　一种是经典模式的界面，　另�
 推荐将构建过程写在仓库中，比如 `build.sh` 或者 `build.bat` ,在构建步骤中直接执行预定义的构建脚本，这样你的构建脚本也能被版本管理起来。
 如果你先刚要通过 gitlab 来触发构建，　那么你应该在　gitlab 或者 github　上配置对应的 webhook
 ![webhook](./images/webhook.png)
+
+2. 流水线
+
+流水先的写法和自由风格不一样，　他是使用　groovy 语言的　DSL 来编写构建过程，关于 DSL 的语法，　清参考 jenkins 的官方网站。同样也支持　github 和　gitlab 的 webhook触发。
+![流水线](./images/pipeline.png)
+
+3. 多分支流水线
+多分支流水线和流水线一样，　也是使用的 DSL　的语法，　需要你在项目里面添加一个 `Jenkinsfile`, 当然，这个文件名字你是可以指定的。
+![多分支](./images/mutil_branch.png)
