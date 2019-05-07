@@ -93,4 +93,4 @@ jenkins　的用户界面有两种，　一种是经典模式的界面，　另�
 ![多分支](images/mutil_branch.png)
 
 ## 有疑问
-如果有疑问，　可以 google 搜索, 或则在本项目中添加 [issue](https://github.com/hellojukay/jenkins101/issues/new)
+如果有疑问，可以 google 搜索, 或则在本项目中添加 [issue](https://github.com/hellojukay/jenkins101/issues/new)
