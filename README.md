@@ -32,7 +32,7 @@ volumes:
 ```shell
 java -jar jenkins.war
 ```
-* yum,apt,brew,pacman安装
+* yum,apt,brew,pacman 安装
 通过包管理工具也能安装 jenkins
 
 1. yum 安装 jenkinsfile
