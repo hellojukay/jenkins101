@@ -1,7 +1,7 @@
 # Jenkins101
 这是一个 jenkins 的中文介绍教程．
 
-> 精细完整的文档，　清务必参考 jenkins 的官网: https://jenkins.io/zh/
+> 精细完整的文档，　参考 jenkins 的官网: https://jenkins.io/zh/
 ## 安装 Jenkins
 * docker 安装
 直接使用 docker run 安装最新版本的 jenkins
