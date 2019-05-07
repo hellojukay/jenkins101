@@ -91,3 +91,6 @@ jenkins　的用户界面有两种，　一种是经典模式的界面，　另�
 
 多分支流水线和流水线一样，　也是使用的 DSL 的语法，　需要你在项目里面添加一个 `Jenkinsfile`, 当然，这个文件名字你是可以指定的。
 ![多分支](images/mutil_branch.png)
+
+## 有疑问
+如果有疑问，　可以 google 搜索, 或则在本项目中添加 [issue](https://github.com/hellojukay/jenkins101/issues/new)
