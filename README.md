@@ -55,3 +55,9 @@ brew update && brew install jenkins
 ```shell
 pacman -S jenkins
 ```
+
+## Jenkins 的用户界面
+* 经典界面
+* Blue Ocean
+
+jenkins　的用户界面有两种，　一种是经典模式的界面，　另一种是　Blue Ocean　界面，　Blue Ocean　目前是插件的方式存在，　如果要想使用这个 UI 界面，　需要单独安装这个插件. 在未来　Blue Ocean　会组件取代现有的经典模式的功能。随着Blue Ocean的成熟，用户回到经典UI的理由将越来越少。
